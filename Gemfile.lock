@@ -131,7 +131,8 @@ GEM
       ast (~> 2.4.0)
     pg (1.0.0)
     powerpack (0.1.1)
-    puma (3.11.4)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -256,7 +257,7 @@ DEPENDENCIES
   minitest-reporters
   octokit (~> 4.0)
   pg (~> 1.0.0)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rack-cors
   rails (~> 5.1.6)
   rails_12factor
